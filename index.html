@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonil Hassan PORTFOLIO</title>
+    <script
+      src="https://kit.fontawesome.com/9f7f17574d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-------------------------------------------------- /////// Blur & Popup /////// -------------------------------------------->
+
+    <div class="Blurbg"></div>
+    <div id="Popupwin" class="Popup-window"></div>
+
+    <!-------------------------------------------------- ///////// Project /////// ------------------------------------------------->
+
+    <header class="header-page">
+      <nav class="Nav-bar">
+        <div class="Myname">Sonil Hassan</div>
+        <ul class="ProjectMenu" id="ProjectMenu">
+          <li class="Head-menu" onclick="closemenu()">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="Head-menu" onclick="closemenu()">
+            <a href="#aboutid">About</a>
+          </li>
+          <li class="Head-menu" onclick="closemenu()">
+            <a href="#FContact">Contact</a>
+          </li>
+          <i class="fa-solid fa-xmark RIGHT-SIDE" onclick="closemenu()"></i>
+        </ul>
+        <a href="#" class="bar-button">
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </a>
+        <ul class="DesktopsMenu">
+          <li class="Head-menu"><a href="#portfolio">Portfolio</a></li>
+          <li class="Head-menu"><a href="#aboutid">About</a></li>
+          <li class="Head-menu"><a href="#FContact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="BG-color" id="blurx">
+      <section class="BackGround Bkg">
+        <div class="informations">
+          <h1>
+            I'm Sonil Hassan <br />
+            Glad to see you!
+          </h1>
+          <p>
+            I'm a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don't hestiate to
+            contact me.
+          </p>
+          <a href="#" class="Info-link">LET'S CONNECT</a>
+          <ul class="Icons-main">
+            <li>
+              <a href="#" class="Icons"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" class="Icons"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="Icons"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="Icons"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <!-------------------------------------------- ///////// Middle Part Moved To JS ////// ------------------------------------------>
+
+    <section id="detailid" class="Shadow"></section>
+
+    <!-------------------------------------------------- //////About Section //////------------------------------------------------->
+
+    <section class="ABorder" id="aboutid">
+      <section class="Aboutsection">
+        <div class="AboutSize">
+          <h2>
+            About <br />
+            Myself
+          </h2>
+          <p class="pa">
+            Hello I am a software developer! I can help you build a product ,
+            feature or website Look through some of my detailp and experience!
+            If you like what you see and have a project you need coded, don't
+            hestiate to contact me.
+          </p>
+          <a href="#" class="Info-link">LET'S CONNECT</a>
+          <ul class="Icons-main">
+            <li>
+              <a href="#" class="Icons"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" class="Icons"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="Icons"
+                ><i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="Icons"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+            </li>
+          </ul>
+          <a href="#" class="Button-Web button-mg">Get my resume</a>
+        </div>
+        <div>
+          <div class="aboutLanguage">
+            <ul class="aboutid">
+              <div class="about-size">
+                <a href="#" class="palan">Languages</a>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <li>
+                <div class="About-Lang">
+                  <img src="./img/html.png" alt="HTML" />
+                  <p class="palan">HTML</p>
+                </div>
+                <div class="About-Lang">
+                  <img src="./img/css.png" alt="CSS" />
+                  <p class="palan">CSS</p>
+                </div>
+                <div class="About-Lang">
+                  <img src="./img/js.png" alt="JavaScript" />
+                  <p class="palan">JavaScript</p>
+                </div>
+              </li>
+            </ul>
+            <ul class="Information">
+              <div class="about-size">
+                <a href="#">Frameworks</a>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="About-Line"></div>
+            </ul>
+            <ul class="Information">
+              <div class="about-size">
+                <a href="#">Skills</a>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="About-Line"></div>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-------------------------------------- ///////// Contact-Form ////////// ----------------------------------->
+
+    <section class="FContact" id="FContact">
+      <div class="FContainer">
+        <div class="Contact-size TiContact">
+          <h3 class="h3con Text-contact">Contact me</h3>
+          <p class="PCText TextAlign Ctextfont titpa">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I'd love
+            to help with it
+          </p>
+        </div>
+        <form action="https://formspree.io/f/xrgvzgnl" method="post" id="form">
+          <input
+            type="text"
+            name="Fullname"
+            class="Finput"
+            id="FName"
+            maxlength="30"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            name="Email"
+            class="Finput"
+            id="Femail"
+            placeholder="Email@example.com"
+            required
+          />
+          <span id="CError"></span>
+          <textarea
+            name="message"
+            class="FormText Finput"
+            id="FormText"
+            rows="10"
+            cols="30"
+            required
+            maxlength="500"
+            placeholder="Write message here!"
+          ></textarea>
+          <div>
+            <button class="Button-Web Fbutton" type="submit">
+              Get It Touch
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
